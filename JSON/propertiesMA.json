@@ -1,0 +1,14 @@
+{
+	"title": "Properties for MeilleurAgent",
+	"properties": {
+		"priceAppart": {
+			"type": "integer"
+			"minimum": 0
+		},
+		"priceHouse": {
+			"type": "integer",
+			"minimum": 0
+		}
+	},
+	"required": ["priceAppart","priceHouse"]
+}
